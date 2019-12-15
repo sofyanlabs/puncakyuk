@@ -1,0 +1,37 @@
+@tailwind base;
+
+@tailwind components;
+
+$default-color: #555;
+$primary-color: #38b2ac;
+
+.bg-pattern::before {
+    content: "";
+    width: 100%;
+    height: 120px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-image: linear-gradient(0deg, rgba(255, 255, 255, 0), #f7fafc);
+}
+
+.bg-pattern::after {
+    content: "";
+    width: 100%;
+    height: 120px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0), #f7fafc);
+}
+
+@import '~vue2-datepicker/scss/index.scss';
+
+.mx-range-wrapper {
+    flex-wrap: wrap;
+
+    .mx-calendar {
+        flex: 1;
+    }
+}
+@tailwind utilities;
