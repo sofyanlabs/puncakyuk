@@ -25,13 +25,3 @@ $primary-color: #38b2ac;
     background-image: linear-gradient(180deg, rgba(255, 255, 255, 0), #f7fafc);
 }
 @tailwind utilities;
-
-@import '~vue2-datepicker/scss/index.scss';
-
-.mx-range-wrapper {
-    flex-wrap: wrap;
-
-    .mx-calendar {
-        flex: 1;
-    }
-}
