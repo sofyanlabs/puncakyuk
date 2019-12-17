@@ -24,12 +24,4 @@ $primary-color: #38b2ac;
     left: 0px;
     background-image: linear-gradient(180deg, rgba(255, 255, 255, 0), #f7fafc);
 }
-
-.mx-range-wrapper {
-    flex-wrap: wrap;
-
-    .mx-calendar {
-        flex: 1;
-    }
-}
 @tailwind utilities;
