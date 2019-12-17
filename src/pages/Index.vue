@@ -87,13 +87,12 @@
 </template>
 
 <script>
-  import DatePicker from 'vue2-datepicker';
   const today = new Date();
   today.setHours(0, 0, 0, 0);
 
   export default {
     components: {
-      DatePicker
+      DatePicker: () => import('vue2-datepicker')
     },
     data() {
       return {
