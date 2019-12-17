@@ -7,8 +7,7 @@
       </h1>
       <p class="hidden sm:block sm:px-20 lg:px-0 text-xl text-gray-600">Kami memiliki pilihan <strong>Rekomendasi
           Villa</strong> terbaik yang <strong>dapat kamu sewa</strong> dengan mudah!</p>
-      <g-image src="~/assets/img/header.svg" alt="Gambar Cari Villa di Puncakyuk" immediate="true" class="mx-auto py-4 md:max-w-2xl xl:max-w-3xl"/>
-      <!-- <img src="img/header.svg" alt="Gambar Cari Villa di Puncakyuk" class="mx-auto py-4 md:max-w-2xl xl:max-w-3xl" /> -->
+      <img src="img/header.svg" alt="Gambar Cari Villa di Puncakyuk" class="mx-auto py-4 md:max-w-2xl xl:max-w-3xl" />
     </div>
 
     <div class="container">
