@@ -8,4 +8,8 @@ import '~/assets/index.scss'
 export default function (Vue, { router, head, isClient }) {
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout)
+  head.link.push({
+    rel: 'stylesheet',
+    href: 'https://cdn.jsdelivr.net/npm/vue2-datepicker@3.2.2/index.css'
+  })
 }
