@@ -30,6 +30,7 @@
           <a href="#" class="border border-gray-200 px-4 py-2 rounded-full hover:bg-white hover:text-teal-500 mb-5 md:mb-0 md:mr-3">Hubungi Whatsapp</a>
           <a href="#" class="border border-gray-200 px-4 py-2 rounded-full hover:bg-white hover:text-teal-500">Hubungi Email</a>
         </div>
+        <p class="mt-5">Copyright © 2019 Puncakyuk by Sofyanlabs</p>
       </div>
     </footer>
   </div>
