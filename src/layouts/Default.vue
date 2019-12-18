@@ -27,8 +27,8 @@
           Mudahnya Mencari Villa di Puncak
         </p>
         <div class="flex justify-center flex-col md:flex-row">
-          <a href="#" class="border border-gray-200 px-4 py-2 rounded-full hover:bg-white hover:text-teal-500 mb-5 md:mb-0 md:mr-3">Hubungi Whatsapp</a>
-          <a href="#" class="border border-gray-200 px-4 py-2 rounded-full hover:bg-white hover:text-teal-500">Hubungi Email</a>
+          <a href="https://api.whatsapp.com/send?phone=6281315104352&text=Halo%2C%20saya%20ingin%20memesan%20villa%20di%20puncakyuk" class="border border-gray-200 px-4 py-2 rounded-full hover:bg-white hover:text-teal-500 mb-5 md:mb-0 md:mr-3">Hubungi Whatsapp</a>
+          <a href="mailto:a.sofyann27@gmail.com" class="border border-gray-200 px-4 py-2 rounded-full hover:bg-white hover:text-teal-500">Hubungi Email</a>
         </div>
         <p class="mt-5">Copyright © 2019 Puncakyuk by Sofyanlabs</p>
       </div>
