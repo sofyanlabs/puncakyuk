@@ -15,7 +15,7 @@
         class="py-2 px-6 xl:py-6 w-full lg:w-5/6 xl:w-2/3 mx-auto md:flex justify-between items-center bg-white shadow-lg rounded border border-gray-200">
         <h2 class="font-semibold text-base md:text-lg text-center text-gray-700">Mau Pesan Untuk Kapan Nih?</h2>
         <div class="flex flex-wrap justify-center py-4 xl:py-0">
-          <date-picker v-model="time" range format="DD-MMMM-YYYY" placeholder="Pilih Tanggal..."
+          <date-picker v-model="time" format="DD-MMMM-YYYY" placeholder="Pilih Tanggal..."
             :disabled-date="notBeforeToday"></date-picker>
         </div>
         <div class="text-center">
