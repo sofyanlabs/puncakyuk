@@ -72,7 +72,7 @@
     </div>
 
     <div style="background: url('/img/bg-pattern.svg'); position:relative" class="bg-pattern">
-      <div class="container py-10 lg:py-24">
+      <div class="container py-24">
         <div class="text-center">
           <h2 class="text-teal-500 text-xl lg:text-3xl xl:text-4xl font-bold">
             Rekomendasi Villa Terbaik
