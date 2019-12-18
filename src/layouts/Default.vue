@@ -19,6 +19,19 @@
       </div>
     </header>
     <slot />
+
+    <footer class="bg-teal-500">
+      <div class="container text-white text-center py-16">
+        <h4 class="font-semibold text-4xl">Puncakyuk</h4>
+        <p class="text-base mb-6">
+          Mudahnya Mencari Villa di Puncak
+        </p>
+        <div class="flex justify-center flex-col md:flex-row">
+          <a href="#" class="border border-gray-200 px-4 py-2 rounded-full hover:bg-white hover:text-teal-500 mb-5 md:mb-0 md:mr-3">Hubungi Whatsapp</a>
+          <a href="#" class="border border-gray-200 px-4 py-2 rounded-full hover:bg-white hover:text-teal-500">Hubungi Email</a>
+        </div>
+      </div>
+    </footer>
   </div>
 </template>
 

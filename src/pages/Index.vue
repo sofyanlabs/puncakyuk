@@ -73,31 +73,53 @@
     </div>
 
     <div style="background: url('/img/bg-pattern.svg'); position:relative" class="bg-pattern">
-      <div class="container py-24">
-        <h2 class="text-teal-500 text-xl lg:text-3xl xl:text-4xl font-bold">
-          Rekomendasi Villa Terbaik
-        </h2>
-        <p class="text-gray-600 text-sm lg:text-normal xl:text-lg mb-12">
-          Pilihan villa yang memenuhi kebutuhanmu
-        </p>
+      <div class="container py-10 lg:py-24">
+        <div class="text-center">
+          <h2 class="text-teal-500 text-xl lg:text-3xl xl:text-4xl font-bold">
+            Rekomendasi Villa Terbaik
+          </h2>
+          <p class="text-gray-600 text-sm lg:text-normal xl:text-lg mb-12">
+            Pilihan villa yang memenuhi kebutuhanmu
+          </p>
+        </div>
         <div class="flex flex-wrap -mx-4">
           <div class="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
-            <BoxHotel :villa="satu"/>
+            <BoxHotel :villa="satu" />
           </div>
           <div class="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
-            <BoxHotel :villa="dua"/>
+            <BoxHotel :villa="dua" />
           </div>
           <div class="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
-            <BoxHotel :villa="tiga"/>
+            <BoxHotel :villa="tiga" />
           </div>
           <div class="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
-            <BoxHotel :villa="empat"/>
+            <BoxHotel :villa="empat" />
           </div>
           <div class="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
-            <BoxHotel :villa="lima"/>
+            <BoxHotel :villa="lima" />
           </div>
           <div class="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
-            <BoxHotel :villa="enam"/>
+            <BoxHotel :villa="enam" />
+          </div>
+        </div>
+        <div class="relative text-center mx-auto px-5 mt-5 z-20">
+          <a href="#">
+            <button class="text-white py-3 text-lg md:text-xl rounded-lg font-medium px-8 uppercase bg-teal-500 hover:bg-teal-600 focus:outline-none shadow-xl">Villa Lainnya</button>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container pb-16">
+      <div
+        class="w-full lg:w-5/6 mx-auto bg-white shadow-2xl rounded border border-gray-200">
+        <div class="flex justify-between items-center flex-col md:flex-row p-6 lg:p-10">
+          <div>
+            <h2 class="font-semibold text-lg md:text-xl text-center lg:text-left text-gray-700 mb-5 md:mb-0">Ingin Rekomendasi Cepat dari Kami?</h2>
+          </div>
+
+          <div>
+            <button class="text-white py-3 px-6 text-lg rounded-lg bg-teal-500 font-medium uppercase shadow-2xl hover:bg-teal-600 focus:outline-none">Hubungi Kami</button>
           </div>
         </div>
       </div>
