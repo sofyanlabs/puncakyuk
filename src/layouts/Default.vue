@@ -13,7 +13,7 @@
             <li><a class="lg:p-4 px-0 hidden md:block border-b-2 border-transparent hover:border-teal-500 mr-5"
                 href="#">List Villa</a></li>
             <li><a class="bg-teal-500 hover:bg-teal-600 text-white font-semibold uppercase py-2 px-4 rounded-lg tracking-wider"
-                href="#">Pesan Cepat</a></li>
+                href="https://api.whatsapp.com/send?phone=6281315104352&text=Halo%2C%20saya%20ingin%20memesan%20villa%20di%20puncakyuk">Pesan Cepat</a></li>
           </ul>
         </nav>
       </div>

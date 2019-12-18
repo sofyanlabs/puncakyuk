@@ -20,7 +20,7 @@
         </div>
         <div class="text-center">
           <a class="bg-teal-500 hover:bg-teal-600 text-white text-sm font-semibold uppercase py-2 px-4 rounded-lg tracking-wider"
-            href="#">Pesan</a>
+            href="https://api.whatsapp.com/send?phone=6281315104352&text=Halo%2C%20saya%20ingin%20memesan%20villa%20di%20puncakyuk">Pesan</a>
         </div>
       </div>
     </div>
@@ -118,7 +118,9 @@
           </div>
 
           <div>
-            <button class="text-white py-3 px-6 text-lg rounded-lg bg-teal-500 font-medium uppercase shadow-2xl hover:bg-teal-600 focus:outline-none">Hubungi Kami</button>
+            <a href="https://api.whatsapp.com/send?phone=6281315104352&text=Halo%2C%20saya%20ingin%20memesan%20villa%20di%20puncakyuk">
+              <button class="text-white py-3 px-6 text-lg rounded-lg bg-teal-500 font-medium uppercase shadow-2xl hover:bg-teal-600 focus:outline-none">Hubungi Kami</button>
+            </a>
           </div>
         </div>
       </div>
