@@ -200,7 +200,7 @@
       }
     },
     metaInfo: {
-      title: 'Sewa Villa di Puncak Murah dan Mudah'
+      title: 'Sewa Villa di Puncak Bogor Murah dan Mudah'
     }
   }
 </script>
