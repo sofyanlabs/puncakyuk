@@ -32,8 +32,7 @@
             Menginap Nyaman Tanpa Pusing
           </h2>
           <p class="text-gray-600 text-sm lg:text-normal xl:text-lg mt-4 pr-0 lg:pr-20 sm:pl-0">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor rerum, tenetur recusandae quas assumenda
-            possimus!
+            Pesan villa dengan mudah dan cepat. Cukup dengan puncakyuk, villa yang kamu butuhkan bisa didapatkan dengan mudah.
           </p>
           <div class="flex items-start mt-8">
             <div class="bg-teal-500 p-2 mr-4 mb-4 md:mb-0 rounded-lg w-12">
