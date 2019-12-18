@@ -6,6 +6,7 @@
 
 module.exports = {
   siteName: 'Puncakyuk',
+  siteDescription: 'Sewa villa di puncak bogor murah dan mudah, kami memiliki pilihan villa di puncak terlengkap! bisa banyak orang, ada kolam renang dengan harga sesuai budget', 
   plugins: [
     {
     use: 'gridsome-plugin-tailwindcss',
