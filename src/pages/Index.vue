@@ -40,7 +40,7 @@
               <img src="img/favorites.svg" alt="Harga Murah" class="max-w-sm h-8">
             </div>
             <div class="-mt-2 md:mt-0">
-              <h3 class="font-semibold">Pelayanan Terbaik</h3>
+              <h3 class="font-semibold text-gray-700">Pelayanan Terbaik</h3>
               <p class="text-gray-600 text-sm lg:text-normal md:pr-4">Pesan mudah dan nyaman dengan dibantu oleh admin
                 kami.</p>
             </div>
@@ -50,7 +50,7 @@
               <img src="img/home.svg" alt="Pilihan Villa" class="max-w-sm h-8">
             </div>
             <div class="-mt-2 md:mt-0">
-              <h3 class="font-semibold">Villa Terlengkap</h3>
+              <h3 class="font-semibold text-gray-700">Villa Terlengkap</h3>
               <p class="text-gray-600 text-sm lg:text-normal md:pr-4">Banyaknya pilihan rekomendasi villa yang dapat
                 dipesan.</p>
             </div>
@@ -60,7 +60,7 @@
               <img src="img/money.svg" alt="Harga Murah" class="max-w-sm h-8">
             </div>
             <div class="-mt-2 md:mt-0">
-              <h3 class="font-semibold">Harga Termurah</h3>
+              <h3 class="font-semibold text-gray-700">Harga Termurah</h3>
               <p class="text-gray-600 text-sm lg:text-normal md:pr-4">Dapatkan harga termurah sesuai fasilitas yang
                 didapat.</p>
             </div>
@@ -72,14 +72,34 @@
       </div>
     </div>
 
-    <div style="background: url('/img/bg-pattern.svg'); position:relative" class="bg-pattern mt-20">
-      <div class="container py-20">
+    <div style="background: url('/img/bg-pattern.svg'); position:relative" class="bg-pattern">
+      <div class="container py-24">
         <h2 class="text-teal-500 text-xl lg:text-3xl xl:text-4xl font-bold">
           Rekomendasi Villa Terbaik
         </h2>
-        <p class="text-gray-600 text-sm lg:text-normal xl:text-lg">
+        <p class="text-gray-600 text-sm lg:text-normal xl:text-lg mb-12">
           Pilihan villa yang memenuhi kebutuhanmu
         </p>
+        <div class="flex flex-wrap -mx-4">
+          <div class="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
+            <BoxHotel :villa="satu"/>
+          </div>
+          <div class="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
+            <BoxHotel :villa="dua"/>
+          </div>
+          <div class="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
+            <BoxHotel :villa="tiga"/>
+          </div>
+          <div class="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
+            <BoxHotel :villa="empat"/>
+          </div>
+          <div class="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
+            <BoxHotel :villa="lima"/>
+          </div>
+          <div class="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
+            <BoxHotel :villa="enam"/>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -87,16 +107,70 @@
 </template>
 
 <script>
+  import BoxHotel from '../components/BoxHotel'
+
   const today = new Date();
   today.setHours(0, 0, 0, 0);
 
   export default {
     components: {
-      DatePicker: () => import('vue2-datepicker')
+      DatePicker: () => import('vue2-datepicker'),
+      BoxHotel
     },
     data() {
       return {
         time: null,
+
+        //villa
+        satu: {
+          imageUrl: require('!!assets-loader!~/assets/images/puncak_1.jpg'),
+          imageAlt: 'Villa Hindana Klasik Murah',
+          model: 'Klasik',
+          beds: 5,
+          title: "Villa Hindana",
+          formattedPrice: "Rp 2.500.000",
+        },
+        dua: {
+          imageUrl: require('!!assets-loader!~/assets/images/puncak_2.jpg'),
+          imageAlt: 'Villa Rusana Modern Murah',
+          model: 'Modern',
+          beds: 3,
+          title: "Villa Rusana",
+          formattedPrice: "Rp 1.500.000",
+        },
+        tiga: {
+          imageUrl: require('!!assets-loader!~/assets/images/puncak_3.jpg'),
+          imageAlt: 'Villa Bunga Lestari Moden Murah',
+          model: 'Modern',
+          beds: 4,
+          title: "Villa Bunga Lestari",
+          formattedPrice: "Rp 1.800.000",
+        },
+        empat: {
+          imageUrl: require('!!assets-loader!~/assets/images/puncak_4.jpg'),
+          imageAlt: 'Villa Jaya Abadi Klasik Murah',
+          model: 'Klasik',
+          beds: 3,
+          title: "Villa Jaya Abadi",
+          formattedPrice: "Rp 800.000",
+        },
+        lima: {
+          imageUrl: require('!!assets-loader!~/assets/images/puncak_5.jpg'),
+          imageAlt: 'Villa Garden Hills Klasik',
+          model: 'Klasik',
+          beds: 6,
+          title: "Villa Melawai",
+          formattedPrice: "Rp 1.800.000",
+        },
+        enam: {
+          imageUrl: require('!!assets-loader!~/assets/images/puncak_6.jpg'),
+          imageAlt: 'Rear view of modern home with pool',
+          model: 'Klasik',
+          beds: 4,
+          title: "Villa Garden Hills",
+          formattedPrice: "Rp 1.000.000",
+        },
+
       };
     },
     methods: {
